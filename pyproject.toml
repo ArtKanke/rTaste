@@ -1,0 +1,14 @@
+[project]
+name = "rtaste"
+version = "0.1.0"
+description = "The evaluation harness of rTaste: do research agents have taste?"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = ["openai>=3.24", "anthropic>=1.11", "pydantic>=2", "pypdf>=6", "pypdfium2>=5", "pillow>=10", "pyarrow>=17", "httpx2>=2.13", "huggingface_hub==2.1.1"]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["rtaste"]

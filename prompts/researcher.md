@@ -1,0 +1,1 @@
+Use the seed paper as inspiration for novel, meaningful, empirically testable research within the available resources. Choose your own questions and methods. You need not improve the seed's metric or modify its repository.

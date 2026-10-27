@@ -1,0 +1,8 @@
+seed,seed_number,title,pages,first_posted,launch_day,repository,repository_commit,machines,cost,cost_paid
+2609.29233,1,Post-Training Leaves Behavioral Shadows on Unrelated Decisions,17,2026-09-24,2026-10-06,https://github.com/myboker/ATD,0c9a686d8ef361e77d75270cb0e732bf63da78bf,a100-large,405.91,405.91
+2609.11699,2,Negative Self-Distillation: Learning to Reason by Avoiding Flaws,23,2026-09-10,2026-10-06,https://github.com/Prongcan/NSD,4455427e35c80487d3861dca67ea28b9c755a3a0,a100-large,408.35,408.35
+2609.04199,3,Compile by Training: Turning Natural-Language Specifications into Local Neural Functions,10,2026-09-03,2026-10-06,https://github.com/programasweights/compile-by-training,0401a7e28ff81d5c65e72ffc515c180f5633c4e7,a100-large,394.22,394.22
+2609.26796,4,"Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",21,2026-09-22,2026-10-07,https://github.com/VILA-Lab/Flash-dLLM,7437a550fd3d1a0752edcbf58bd015ad69083068,a100-large,466.5,466.5
+2609.18605,5,PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?,26,2026-09-16,2026-10-07,https://github.com/trace-ai-labs/pact,4839f1645482c53f1cb0b25b051ef191129be4e9,a100-large,417.45,417.45
+2608.02602,6,AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling,41,2026-08-03,2026-10-07,https://github.com/fyv587/AURORA-LM,cfa6cfe87fb612880cd9158e43f31e0d7b91d178,a100-large,601.23,601.23
+2608.06867,7,"LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers",34,2026-08-07,2026-10-07,https://github.com/ulab-uiuc/LLMRouter,338335d24e29c26f66b0f11dc9a3b50fe3e742c1,a100-large/h200,419.48,443.57

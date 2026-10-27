@@ -1,0 +1,157 @@
+{
+ "rule": "The 15 most upvoted Hugging Face daily papers (arXiv cs.CL, first posted 2026-08-01 to 2026-10-01, with code) that passed screening. The author accepted Last Translation Benchmark and moved four candidates that allow only narrow experiments to the spares.",
+ "order_rule": "Run order is the 15 sorted by sha256('rtaste seed order 2026-10-02 ' + arXiv id). The first paper is the rehearsal paper and is not part of the results.",
+ "run_order": [
+  {
+   "id": "2608.31119",
+   "title": "PaperGym: Rubric-Centered Evolution for Research-Plan Generation",
+   "upvotes": 32,
+   "first_posted": "2026-08-31",
+   "code": "https://github.com/ZJU-REAL/PaperGym"
+  },
+  {
+   "id": "2609.29233",
+   "title": "Post-Training Leaves Behavioral Shadows on Unrelated Decisions",
+   "upvotes": 271,
+   "first_posted": "2026-09-24",
+   "code": "https://github.com/myboker/ATD"
+  },
+  {
+   "id": "2609.11699",
+   "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+   "upvotes": 34,
+   "first_posted": "2026-09-10",
+   "code": "https://github.com/Prongcan/NSD"
+  },
+  {
+   "id": "2609.04199",
+   "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+   "upvotes": 332,
+   "first_posted": "2026-09-03",
+   "code": "https://github.com/programasweights/compile-by-training"
+  },
+  {
+   "id": "2609.26796",
+   "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+   "upvotes": 36,
+   "first_posted": "2026-09-22",
+   "code": "https://github.com/VILA-Lab/Flash-dLLM"
+  },
+  {
+   "id": "2609.18605",
+   "title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
+   "upvotes": 41,
+   "first_posted": "2026-09-16",
+   "code": "https://github.com/trace-ai-labs/pact"
+  },
+  {
+   "id": "2608.02602",
+   "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+   "upvotes": 85,
+   "first_posted": "2026-08-03",
+   "code": "https://github.com/fyv587/AURORA-LM"
+  },
+  {
+   "id": "2608.06867",
+   "title": "LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers",
+   "upvotes": 67,
+   "first_posted": "2026-08-07",
+   "code": "https://github.com/ulab-uiuc/LLMRouter"
+  },
+  {
+   "id": "2608.27448",
+   "title": "TTPO: Test-Time Policy Optimization",
+   "upvotes": 83,
+   "first_posted": "2026-08-27",
+   "code": "https://github.com/ZJU-REAL/TTPO"
+  },
+  {
+   "id": "2609.20612",
+   "title": "What Does Privileged Information Add to On-Policy Self-Distillation?",
+   "upvotes": 36,
+   "first_posted": "2026-09-17",
+   "code": "https://github.com/xiuyuz/opsd-reference-study"
+  },
+  {
+   "id": "2609.26780",
+   "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+   "upvotes": 101,
+   "first_posted": "2026-09-22",
+   "code": "https://github.com/2022hpsk/SpeakerMemR1"
+  },
+  {
+   "id": "2609.04173",
+   "title": "Last Translation Benchmark",
+   "upvotes": 37,
+   "first_posted": "2026-09-03",
+   "code": "https://github.com/zouharvi/last-translation-benchmark"
+  },
+  {
+   "id": "2609.03430",
+   "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+   "upvotes": 152,
+   "first_posted": "2026-09-03",
+   "code": "https://github.com/SalesforceAIResearch/Random-Attention"
+  },
+  {
+   "id": "2609.13141",
+   "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+   "upvotes": 65,
+   "first_posted": "2026-09-11",
+   "code": "https://github.com/Tencent-Hunyuan/Simple-Attention-Sparsification"
+  },
+  {
+   "id": "2608.12149",
+   "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
+   "upvotes": 30,
+   "first_posted": "2026-08-12",
+   "code": "https://github.com/StartluxLabs/Massive-Activations-HLA"
+  }
+ ],
+ "spares_in_order": [
+  {
+   "id": "2609.38334",
+   "title": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
+   "upvotes": 68,
+   "first_posted": "2026-09-29",
+   "code": "https://github.com/Gnonymous/EVOKE"
+  },
+  {
+   "id": "2608.03573",
+   "title": "SFT Conflicts, RL Coexists: A Theoretical and Empirical Analysis of Multi-Task Learning for LLMs",
+   "upvotes": 61,
+   "first_posted": "2026-08-04",
+   "code": "https://github.com/GaryStack/Parallel-RL"
+  },
+  {
+   "id": "2609.28416",
+   "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+   "upvotes": 42,
+   "first_posted": "2026-09-23",
+   "code": "https://github.com/RUCAIBox/Agent-Editing-World-Model"
+  },
+  {
+   "id": "2608.27370",
+   "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+   "upvotes": 37,
+   "first_posted": "2026-08-27",
+   "code": "https://github.com/thu-pacman/Puro-Megatron"
+  },
+  {
+   "id": "2609.05405",
+   "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
+   "upvotes": 31,
+   "first_posted": "2026-09-04",
+   "code": "https://github.com/facebookresearch/WearableQA"
+  }
+ ],
+ "replaced": [
+  {
+   "removed": "2609.17708",
+   "title": "Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents",
+   "by": "2608.12149",
+   "decided": "2026-10-03",
+   "reason": "Every main experiment of the paper uses a 397B model, and the paper reports that its method degrades below 27B, so it does not allow informative follow-up experiments on one GPU with models of 8B or smaller. Replaced before any run, by the first spare, which takes the last place."
+  }
+ ]
+}
