@@ -1,6 +1,6 @@
 # rTaste: Do Research Agents Have Taste? Evaluating Early Stage Research Judgment
 
-📄 Paper: TBD &nbsp;|&nbsp; 🤗 Dataset: TBD
+📄 [Paper](https://arxiv.org/abs/2610.40488) &nbsp;|&nbsp; 🤗 [Dataset](https://huggingface.co/datasets/ArtKanke/rTaste)
 
 **rTaste measures the *taste* of a research agent: its judgment of which experiments are worth running before their
 outcomes are known.** Six frontier models read seven recent NLP papers and, working alone or as a team, each propose
@@ -91,7 +91,15 @@ python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt && .venv/b
 ## Citation
 
 ```bibtex
-TBD
+@misc{kanke2026rtaste,
+  title         = {rTaste: Do Research Agents Have Taste? Evaluating Early Stage Research Judgment},
+  author        = {Kanke, Art},
+  year          = {2026},
+  eprint        = {2610.40488},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2610.40488}
+}
 ```
 
 ## License

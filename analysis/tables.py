@@ -609,12 +609,12 @@ def spearman(xs, ys):
     return 1 - 6 * sum((x - y) ** 2 for x, y in zip(xs, ys)) / (n * (n * n - 1))
 
 
-def appendix_d():
-    print("\nAppendix D Further analyses of the rankings")
-    for label, columns in (("D sound MVEs whose event occurred: places higher by the auditors", ("event",)),
-                           ("D the same, with informative evidence held fixed", ("event", "informative_2of3"))):
+def section_4_5_rankings():
+    print("\nFurther analyses behind Section 4.5")
+    for label, columns in (("4.5 sound MVEs whose event occurred: places higher by the auditors", ("event",)),
+                           ("4.5 the same, with informative evidence held fixed", ("event", "informative_2of3"))):
         say(label, with_ci(interval([places_higher(s, columns) for s in SEEDS])))
-    say("D informative evidence, % of sound: event occurred / not",
+    say("4.5 informative evidence, % of sound: event occurred / not",
         " / ".join(pct(mean(yes(r, "informative_2of3") for r in SOUND if yes(r, "event") == e)) for e in (True, False)))
     lean = {}
     for who in ("auditors", "agent", *MODELS):
@@ -625,9 +625,9 @@ def appendix_d():
             if on and off:
                 gaps[k] = mean(off) - mean(on)
         lean[who] = gaps
-    say("D conditions with MVEs both on and off the lists", len(lean["auditors"]))
+    say("4.5 conditions with MVEs both on and off the lists", len(lean["auditors"]))
     for who, gaps in lean.items():
-        say(f"D places higher for MVEs on a list: {NAME.get(who, 'the ' + who)}", with_ci(over_seeds(gaps)))
+        say(f"4.5 places higher for MVEs on a list: {NAME.get(who, 'the ' + who)}", with_ci(over_seeds(gaps)))
     agreement = defaultdict(dict)  # group of judges -> condition -> mean Spearman of the agent with those judges
     for k, five in FIVE.items():
         model = k[1].split("-")[0]
@@ -637,10 +637,10 @@ def appendix_d():
             groups[group].append(spearman([rank(r, "agent") for r in five], [rank(r, j) for r in five]))
         for group, values in groups.items():
             agreement[group][k] = mean(values)
-    say("D Spearman, agent with judge: same model / same provider / other providers",
+    say("4.5 Spearman, agent with judge: same model / same provider / other providers",
         " / ".join(f"{over_seeds(agreement[g])[0]:.2f}" for g in ("same model", "same provider", "other")))
     paired = {k: v - agreement["other"][k] for k, v in agreement["same provider"].items()}
-    say(f"D Spearman, same provider minus other providers ({len(paired)} conditions)", with_ci(over_seeds(paired)))
+    say(f"4.5 Spearman, same provider minus other providers ({len(paired)} conditions)", with_ci(over_seeds(paired)))
 
 
 def main():
@@ -648,7 +648,7 @@ def main():
         table()
     heading("Numbers in the text")
     for section in (section_3_and_appendix_a, section_4_1, section_4_2, section_4_3, section_4_4, section_4_5,
-                    section_4_6, section_4_7, appendix_b, appendix_d):
+                    section_4_5_rankings, section_4_6, section_4_7, appendix_b):
         section()
 
 
